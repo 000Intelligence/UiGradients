@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradients Color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script>
+        window.addEventListener('load', () => {
+            document.querySelector('.loader').classList.add('loaded');
+        })
+    </script>
+
+    <div class="loader">
+        <p>Gradients Color</p>
+        <div class="spin"></div>
+    </div>
+
+
+    <div id="bg"></div>
+
+    <div id="glass">
+        <p>Click the button to Change Random bg color</p>
+        <input type="text" spellcheck="false" id="color-code" contenteditable="true">
+    </div>
+
+    <div class="copy-animation">
+        <p>Copied</p>
+    </div>
+
+    <button id="btn"><img src="change-icon-color-9.jpg" alt=""></button>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
